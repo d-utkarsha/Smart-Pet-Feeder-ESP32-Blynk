@@ -124,9 +124,22 @@ The source code for these versions is available in the [`src`](src/) folder.
 
 ## Simulation & Testing
 
-The project was also tested using Wokwi during development.
+The project was tested through both hardware development and simulation during the development process.
 
-The [`simulation`](simulation/) folder contains the available simulation-related files and resources.
+### Wokwi Simulation
+
+A Wokwi simulation of the feeder is included below:
+
+[Watch Wokwi Simulation](simulation/wokwi-simulation.mp4)
+
+### Hardware Simulation / Demonstration
+
+The project also includes recorded demonstrations of the developed feeder:
+
+- [Hardware Demonstration — CA](simulation/hardware-simulation-ca.mp4)
+- [Hardware Demonstration — DU](simulation/hardware-simulation-du.mp4)
+
+All simulation and demonstration videos are available in the [`simulation`](simulation/) folder.
 
 ---
 
@@ -157,8 +170,8 @@ It is **not considered part of the validated main hardware implementation yet**.
 Smart-Pet-Feeder-ESP32-Blynk/
 │
 ├── src/
-│   ├── basic-feeder/
-│   └── blynk-feeder/
+│   ├── sketch_dec14a.ino
+│   └── smart_pet_feeder with HX711.ino
 │
 ├── hardware/
 │   ├── circuit-connections.png
@@ -169,10 +182,15 @@ Smart-Pet-Feeder-ESP32-Blynk/
 │   ├── blynk-interface.jpeg
 │   └── blynk-schedule.jpeg
 │
-├── simulation/
+├── simulation/   
+│   ├── hardware-simulation-ca.mp4
+│   ├── hardware-simulation-du.mp4
+│   └── wokwi-simulation.mp4
 │
 ├── docs/
-│   └── block-diagram.png
+│   ├── block-diagram.png
+│   ├── code plain.txt
+│   └── code with blynk integrated.txt
 │
 ├── .gitignore
 └── README.md
