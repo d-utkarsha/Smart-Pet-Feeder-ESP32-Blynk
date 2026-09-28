@@ -21,6 +21,3 @@ Thumbs.db
 .vscode/
 
 # Large video files
-*.mp4
-*.mov
-*.avi
